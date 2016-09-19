@@ -1,0 +1,37 @@
+.text-center {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+button.acc-btn {
+  display: block;
+  width: 100%;
+  height: 40px;
+  outline: none;
+}
+
+button.acc-btn.active {
+  background-color: #666;
+}
+
+.acc-content {
+  height: 0px;
+  width: 500px;
+  background-color: pink;
+  overflow: hidden;
+  transition: height .3s;
+}
+
+.acc-content p {
+  padding: 10px;
+}
+
+.acc-content.show {
+  height: 150px;
+  transition: height .5s;
+}
